@@ -1,0 +1,144 @@
+body {
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url("https://i.ibb.co/1KrQ0Nz/unnamed-1.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.logo {
+  width: 350px;
+  height: 44px;
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #e6f3f8;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  width: 488px;
+  height: 26px;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 96px;
+  height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nav-links li.active {
+  font-weight: bold;
+  color: #533ad6;
+}
+
+.content {
+  text-align: center;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 120px;
+  border-radius: 10px;
+}
+
+.main-heading {
+  margin-bottom: 20px;
+  width: 772px;
+  height: 218px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sub-heading {
+  width: 643px;
+  height: 79px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #e6f3f8;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.primary-button,
+.secondary-button {
+  width: 66px;
+  height: 23px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fcf8fa;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.primary-button {
+  background-color: rgba(175, 160, 169, 0.5);
+  color: #ffffff;
+  border-top: 1px solid #e0b5ea;
+  border-radius: 16px;
+  width: 153px;
+  height: 65px;
+}
+
+.secondary-button {
+  display: flex;
+  color: #533ad6;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 21px 32px;
+  gap: 8px;
+  position: relative;
+  width: 130px;
+  height: 65px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+}
