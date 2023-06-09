@@ -22,8 +22,12 @@ In-built useful and flexible features, such as
 
 #### • **ERC20 Token**
 
-#### • **Always able to claim 1SAD for 1$USD (currently only support ETH, have plans to support FIAT and other cryptocurrencies).
+#### • **Always** able to claim 1SAD for 1$USD (currently only support ETH, have plans to support FIAT and other cryptocurrencies).
 
+&nbsp;
+> *Contract Address*: 0x6d716b9973C667955a61442dF6008F5f0Ba2bE8e
+> 
+> [Smart Contract on Etherscan](https://goerli-optimism.etherscan.io/address/0x6d716b9973c667955a61442df6008f5f0ba2be8e#writeContract)
 
 # Quickstart
 
