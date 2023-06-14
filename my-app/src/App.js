@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react';
 import './styles.css';
-import { Sepolia } from "@thirdweb-dev/chains";
-import { ThirdwebSDK } from "@thirdweb-dev/sdk/evm";
 import { ConnectWallet } from "@thirdweb-dev/react";
-import { useContract, useContractWrite } from "@thirdweb-dev/react";
+import { useContract } from "@thirdweb-dev/react";
 import { utils } from 'ethers'; // Importing utils from ethers.js
 
-const sdk = new ThirdwebSDK(Sepolia);
+//const sdk = new ThirdwebSDK(Sepolia);
 
 const LandingPage = () => {
   const [etherAmount, setEtherAmount] = useState(''); // State variable to store the input
@@ -17,7 +15,6 @@ const LandingPage = () => {
       console.error('Failed to load contract:', error);
     }
   }, [error]);
-  const { mutateAsync: approve, isLoading } = useContractWrite(contract, "approve")
 
   const handleClaimToken = async () => {
     //await sdk.connectWallet(); // Connect the wallet
