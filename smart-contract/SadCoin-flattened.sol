@@ -649,7 +649,7 @@ contract SadCoin is ERC20, Ownable {
     function claimToken() public payable {
         require(totalSupply() + 1 <= maxSupply, "Max supply reached"); // Check if max supply would be exceeded
         int ethPrice = getLatestPrice();
-        require(msg.value * uint256(ethPrice) / 10**8 >= 1 ether, "Not enough ETH sent"); // Require $1 worth of ETH
+        require(msg.value >= 1 ether * 10**8 / uint256(ethPrice), "Not enough ETH sent!"); // Require $1 worth of ETH
         _mint(msg.sender, 1); // Mint 1 token to the sender
     }
 
