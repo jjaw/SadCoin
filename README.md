@@ -9,12 +9,13 @@
   </a>
 </p>
 
-> [Chainlink Spring 2023 Hackathon](https://chain.link/hackathon) contestant.
+> [Chainlink Spring 2023 Hackathon](https://devpost.com/software/sadcoin) contestant.
 
 
 ## Introduction
 Without sadness there could be no joy. What is liquid sadness? In our view it represents a vast and uncountable abyss of sorrows, woes and miseries all laid out in an ironic pattern, scattered throughout the lives of individuals with few metrics to record it.
 
+## [our Sad Litepaper](https://docs.google.com/presentation/d/1a9Kj6ehueSRea7F_IUvXy2mrbnDyYEHwd5nRdSTCpNs/edit?usp=sharing)
 
 ### Features:
 
