@@ -25,9 +25,9 @@ In-built useful and flexible features, such as
 #### • **Always** able to claim 1SAD for 1$USD (currently only support ETH, have plans to support FIAT and other cryptocurrencies).
 
 &nbsp;
-> *Contract Address*: 0x0ca24b1eebadfc5fd3cc29677dc9be9e091ec9f3
+> *Contract Address*: 0xf8f9d03f36A116453A601499B0646F781B85e0e0
 > 
-> [Smart Contract on Etherscan](https://goerli-optimism.etherscan.io/address/0x6d716b9973c667955a61442df6008f5f0ba2be8e#writeContract)
+> [Smart Contract on Sepolia Testnet Etherscan](https://sepolia.etherscan.io/address/0xf8f9d03f36a116453a601499b0646f781b85e0e0)
 
 # Quickstart
 
