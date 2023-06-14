@@ -28,7 +28,7 @@ In-built useful and flexible features, such as
 We chose Optimism for its emotional resonance.
 
 &nbsp;
-> *Contract Address*: 0x6d716b9973C667955a61442dF6008F5f0Ba2bE8e
+> *Contract Address*: 0x0ca24b1eebadfc5fd3cc29677dc9be9e091ec9f3
 > 
 > [Smart Contract on Etherscan](https://goerli-optimism.etherscan.io/address/0x6d716b9973c667955a61442df6008f5f0ba2be8e#writeContract)
 
